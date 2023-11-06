@@ -8,6 +8,7 @@ services:
       PGRST_JWT_SECRET: jwt_secret_key
       PGRST_DB_MAX_ROWS: 500
       PGRST_DB_POOL: 50
+      PGRST_DB_SCHEMAS: public,libs,rawdata
     depends_on:
       - db
   db:
