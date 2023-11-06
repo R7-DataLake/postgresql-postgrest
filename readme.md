@@ -26,6 +26,12 @@ Sign jwt with `role` key in payload
 }
 ```
 
+Enable `safeupdate`
+
+```sql
+ALTER DATABASE r7platform SET session_preload_libraries = 'safeupdate';
+```
+
 Using api
 
 ```shell
